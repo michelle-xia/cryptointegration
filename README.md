@@ -54,8 +54,6 @@ Make sure you have the latest version of java (Java 21) and gradle (v8.4) instal
    ```
    The data is outputted to app/src/files/output.txt
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/github_username/repo_name.svg?style=for-the-badge
