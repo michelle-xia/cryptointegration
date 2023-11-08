@@ -22,7 +22,7 @@
 <!-- ABOUT THE PROJECT -->
 ## Overview
 
-This app takes user input of an ISO-4217 currency code (such as USD) and queries the [!coinbase API](https://docs.cloud.coinbase.com/sign-in-with-coinbase/docs/api-exchange-rates) for a list of exchange rates for the user inputted currency. It then outputs a list of cryptocurrencies, the value of each cryptocurency in the user inputted currency, the percentage gain/loss of the cryptocurrency against bitcoin in the last 24 hours, and the amount of that cryptocurrency the user would have if they converted 1 bitcoin to that cryptocurrency 24 hours ago.
+This app takes user input of an ISO-4217 currency code (such as USD) and queries the [coinbase API](https://docs.cloud.coinbase.com/sign-in-with-coinbase/docs/api-exchange-rates) for a list of exchange rates for the user inputted currency. It then outputs a list of cryptocurrencies, the value of each cryptocurency in the user inputted currency, the percentage gain/loss of the cryptocurrency against bitcoin in the last 24 hours, and the amount of that cryptocurrency the user would have if they converted 1 bitcoin to that cryptocurrency 24 hours ago.
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -30,8 +30,10 @@ This app takes user input of an ISO-4217 currency code (such as USD) and queries
 ### Prerequisites
 
 Make sure you have the latest version of java (Java 21) and gradle (v8.4) installed
-[!Java](https://www.oracle.com/java/technologies/downloads/)
-[!Gradle](https://gradle.org/releases/)
+
+* [Java](https://www.oracle.com/java/technologies/downloads/)
+
+* [Gradle](https://gradle.org/releases/)
 
 ### Instructions
 
@@ -40,7 +42,9 @@ Make sure you have the latest version of java (Java 21) and gradle (v8.4) instal
    git clone https://github.com/michelle-xia/crypto-integration.git
    ```
 2. Input your ISO-4217 currency of choice in app/src/files/input.txt
-   This app defaults to USD if your input is invalid
+
+   This app defaults to USD if your input is invalid.
+
 3. Build the project
    ```sh
    gradle build
