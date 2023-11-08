@@ -38,7 +38,7 @@ Make sure you have the latest version of java (Java 21) and gradle (v8.4) instal
 
 1. Clone this repo
    ```sh
-   git clone https://github.com/michelle-xia/crypto-integration.git
+   git clone https://github.com/michelle-xia/cryptointegration.git
    ```
 2. Input your ISO-4217 currency of choice in app/src/files/input.txt
 
